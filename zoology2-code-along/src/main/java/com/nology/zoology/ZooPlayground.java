@@ -1,14 +1,8 @@
 package com.nology.zoology;
-
-import com.nology.zoology.animal.*;
-import com.nology.zoology.animal.AnimalUtils;
-import com.nology.zoology.command.PickAnimalNumber;
 import com.nology.zoology.command.UserCommandRunner;
 import com.nology.zoology.zoo.Zoo;
-
 import java.util.Random;
-
-import static com.nology.zoology.animal.AnimalUtils.*;
+import static com.nology.zoology.zoo.ZooUtils.*;
 
 public class ZooPlayground {
     private static final Random RANDOM = new Random();
@@ -18,50 +12,11 @@ public class ZooPlayground {
 //        Abstraction
 //        Encapsulation
 //        Polymorphism pt.1
-        boolean isRandom ;
-
 
         Zoo myZoo = new Zoo();
 
-        PickAnimalNumber picker = new PickAnimalNumber();
-        isRandom = picker.getChoice();
-
-//    NOT RANDOM
-
-        if(!isRandom){
-        for (int i = 0; i < picker.getNumbOfLions(); i++) {
-            myZoo.addAnimal(new Lion(nextUniqueId(),
-                    generateName(), generateAge()));
-        }
-        for (int i = 0; i < picker.getNumbOfTigers(); i++) {
-            myZoo.addAnimal(new Tiger(nextUniqueId(), generateName(), generateAge()));
-        }
-        for (int i = 0; i < picker.getNumbOfLlamas(); i++) {
-            myZoo.addAnimal(new Llama(nextUniqueId(), generateName(), generateAge()));
-        }
-        } else {
-//RANDOM
-        for(int i = 0; i < picker.getNumbOfAnimals(); i++) {
-            switch (RANDOM.nextInt(4)) {
-                case 0:
-                    myZoo.addAnimal(new Lion(nextUniqueId(),
-                            generateName(), generateAge()));
-                    break;
-                case 1:
-                    myZoo.addAnimal(new Tiger(nextUniqueId(), generateName(), generateAge()));
-                    break;
-                case 2:
-                    myZoo.addAnimal(new Llama(nextUniqueId(), generateName(), generateAge()));
-                    break;
-                case 3:
-                    myZoo.addAnimal(new Crocodile(nextUniqueId(), generateName(),
-                            generateAge()));
-                    break;
-            }
-        }
-        }
-
-
+       setZooAnimalCreationMethod();
+       populateZoo(myZoo);
 
         System.out.println(myZoo.getAnimalCount());
 
