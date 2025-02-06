@@ -1,14 +1,13 @@
 package com.nology.zoology.animal;
 
 public class Animal {
-    protected int id;
+    private int id;
     protected String name;
     protected int age;
 
-    public Animal(String name){
-        this.name = name;
-    }
-    public Animal(int id,String name, int age) {
+//    Animal(){};
+
+    public Animal(int id, String name, int age) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -21,6 +20,7 @@ public class Animal {
     public void setId(int id) {
         this.id = id;
     }
+
     public String getName() {
         return name;
     }
@@ -38,15 +38,16 @@ public class Animal {
     }
 
     public void makeSound() {
-        System.out.println("They say nothing...");
+        System.out.println("They say nothing ...");
     }
 
-    public String getInformation(){
+    public String getInformation() {
         return "";
     }
 
     @Override
-    public String toString(){
-        return getClass().getSimpleName() + String.format("[id= %s, name=%s, age%d]",this.id, this.name, this.age);
+    public String toString() {
+        return getClass().getSimpleName() + String.format("[id=%s, name=%s, " +
+                "age=%d]", this.id, this.name, this.age);
     }
 }

@@ -1,23 +1,20 @@
 package com.nology.zoology.animal;
 
-public class Llama extends Animal {
-    String furColour;
-
-    public void setFurColour(String furColour) {
-        this.furColour = furColour;
-    }
-
-    public String getFurColour() {
-        return furColour;
-    }
-
-    public Llama(int id, String name, int age, String furColour) {
+public class Llama extends Animal{
+    public Llama(int id, String name, int age) {
         super(id, name, age);
-        this.furColour = furColour;
     }
+
 
     @Override
     public void makeSound() {
-        System.out.format("I am a llama and my fur colour is %s",this.getFurColour());
+        System.out.println("Hmmmmmmmmsssss");
+    }
+
+
+    @Override
+    public String getInformation() {
+        return String.format("Animal with ID: %d, is called %s, and is %d " +
+                "years old", this.getId(), this.name, this.age);
     }
 }
