@@ -5,13 +5,24 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+//Animal JUnit test
+//
+//Create a new test class for Animal, use IntelliJ to create the test class. In the AnimalTest class
+//create some constants to represent animal test data
+//                use a @BeforeEach to create an Animal object to test
+//add tests for the id getters and setters
+//add tests for the getHunger(), isHungry() and feed() methods
+//add tests for the name and age getters and setters
+//
+//Should we be writing tests for Tiger, Llama and the rest
 public class AnimalTest {
+    int animalId = 99;
      Animal animal1 ;
 
 
     @BeforeEach
         void setUp(){
-        animal1 = new Animal(1,"josh", 44);
+        animal1 = new Animal(animalId,"josh", 44);
 
     }
         //methodName_StateUnderTest_ExpectedBehaviour
@@ -19,7 +30,7 @@ public class AnimalTest {
     @Test
     @DisplayName("test for getId")
         void getId_showsId_returns1(){
-        assertEquals(1,animal1.getId());
+        assertEquals(99,animal1.getId());
     }
 
     @Test
@@ -37,7 +48,7 @@ public class AnimalTest {
 
     @Test
     @DisplayName("testing setHunger")
-        void getHunger_canRetrieveHungerLevel(){
+        void setHunger_canRetrieveHungerLevel(){
         animal1.setHunger((short)20);
         assertEquals(20, animal1.getHunger());
     }
@@ -47,7 +58,6 @@ public class AnimalTest {
         void feed_canFeedAnimal_HungerDecreasesBy10(){
         animal1.feed();
         assertEquals(40, animal1.getHunger());
-
     }
 
     @Test
