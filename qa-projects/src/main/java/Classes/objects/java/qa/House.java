@@ -4,7 +4,7 @@ package Classes.objects.java.qa;
 
 public class House {
 
-    //theese are instance FIELDS (because every house we create will have its own copy)
+    //these are instance FIELDS (because every house we create will have its own copy)
     private int numStories;
     private int numWindows;
     private String colour;
