@@ -1,9 +1,10 @@
 package com.nology.zoology.animal;
 
-public class Animal {
+public abstract class Animal implements Comparable<Animal> {
     private int id;
     protected String name;
     protected int age;
+    protected boolean isPettable;
     protected short hunger = 50;
     private static final int HUNGER_LEVEL = 40;
 
@@ -14,6 +15,7 @@ public class Animal {
         this.id = id;
         this.name = name;
         this.age = age;
+        this.isPettable = getType().isPettable();
     }
 
     public int getId() {
@@ -44,6 +46,7 @@ public class Animal {
         return hunger;
     }
 
+
     public void setHunger(short hunger) {
         this.hunger = hunger;
     }
@@ -57,14 +60,22 @@ public class Animal {
         makeSound();
     }
 
+    public abstract void makeSound();
+    public abstract String getInformation();
 
-
-    public void makeSound() {
-        System.out.println("They say nothing ...");
+    public AnimalType getType() {
+        return null;
     }
 
-    public String getInformation() {
-        return "";
+    @Override
+    public int compareTo(Animal other) {
+        // We want to compare the ID - object is ID current Object.id to
+        // otherObject.id
+        // -1 - current id is smaller than other id
+        // 0 IDs are the same
+        // +1 current ID is greater than other id
+
+        return this.id - other.id;
     }
 
     @Override
