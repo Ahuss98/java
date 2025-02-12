@@ -13,8 +13,8 @@ public abstract class Animal implements Comparable<Animal> {
 
     public Animal(int id, String name, int age) {
         this.id = id;
-        this.name = name;
-        this.age = age;
+        setName(name);
+        setAge(age);
         this.isPettable = getType().isPettable();
     }
 
@@ -31,7 +31,10 @@ public abstract class Animal implements Comparable<Animal> {
     }
 
     public void setName(String name) {
-        this.name = name;
+            if(name == null || name.isEmpty()){
+                throw new IllegalArgumentException("name cant be null or empty");
+            }
+                this.name = name;
     }
 
     public int getAge() {
@@ -39,6 +42,9 @@ public abstract class Animal implements Comparable<Animal> {
     }
 
     public void setAge(int age) {
+        if(age< 1 || age > 99){
+            throw new IllegalArgumentException("age cant be lower than 1 or larger than 99");
+        }
         this.age = age;
     }
 

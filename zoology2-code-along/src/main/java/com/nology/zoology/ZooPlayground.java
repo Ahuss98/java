@@ -18,26 +18,27 @@ public class ZooPlayground {
 //        Encapsulation
 //        Polymorphism pt.1
 
-        Crocodile myCroc = new Crocodile(AnimalUtils.nextUniqueId(),
-                AnimalUtils.generateName(),AnimalUtils.generateAge());
-
-        Llama lla = new Llama(AnimalUtils.nextUniqueId(),
-                AnimalUtils.generateName(),AnimalUtils.generateAge());
-
-        System.out.println(myCroc.getType().isPettable());
-        System.out.println(lla.getType().isPettable());
-
-
-
-        Zoo myZoo = new Zoo();
-
-       setZooAnimalCreationMethod();
-       populateZoo(myZoo);
-
-        System.out.println(myZoo.getAnimalCount());
-
-        UserCommandRunner userCommandRunner = new UserCommandRunner(myZoo);
-        userCommandRunner.runCommands();
+//        Crocodile myCroc = new Crocodile(AnimalUtils.nextUniqueId(),
+//                AnimalUtils.generateName(),AnimalUtils.generateAge());
+//
+//        Llama lla = new Llama(AnimalUtils.nextUniqueId(),
+//                AnimalUtils.generateName(),AnimalUtils.generateAge());
+//
+//        System.out.println(myCroc.getType().isPettable());
+//        System.out.println(lla.getType().isPettable());
+//
+//
+//
+//        Zoo myZoo = new Zoo();
+//
+//       setZooAnimalCreationMethod();
+//       populateZoo(myZoo);
+//
+//        System.out.println(myZoo.getAnimalCount());
+//
+//        UserCommandRunner userCommandRunner = new UserCommandRunner(myZoo);
+//        userCommandRunner.runCommands();
+        Crocodile myCroc = new Crocodile(1,"josh",0);
 
     }
 
