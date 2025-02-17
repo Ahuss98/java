@@ -85,6 +85,7 @@ class FarmYardChallengeTest {
     @Test
     void getOldestAnimals() {
         assertEquals( List.of( KATRINA_CHICKEN, BRIAN_HORSE), target.getOldestAnimals() );
+        System.out.println(target.getOldestAnimals().get);
     }
 
     @Test

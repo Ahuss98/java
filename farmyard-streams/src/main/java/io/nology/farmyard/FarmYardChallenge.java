@@ -2,6 +2,8 @@ package io.nology.farmyard;
 
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class FarmYardChallenge {
 
@@ -18,15 +20,16 @@ public class FarmYardChallenge {
      * @return the total number of animals in the farm yard
      */
     public int getAnimalCount() {
-        return -1;
+        return animals.size();
     }
 
     /**
      * The total number of cows in the farm yard.
+     *
      * @return
      */
     public int getCowCount() {
-        return -1;
+        return (int) this.animals.stream().filter(animal -> animal.getType() == AnimalType.cow).count();
     }
 
     /**
@@ -35,7 +38,7 @@ public class FarmYardChallenge {
      * @return
      */
     public int getAnimalCountForType(AnimalType type) {
-        return -1;
+        return (int) this.animals.stream().filter(animal -> animal.getType() == type).count();
     }
 
     /**
@@ -44,7 +47,7 @@ public class FarmYardChallenge {
      * @return
      */
     public int getAnimalsWithNameBeginningWith(String prefix) {
-        return -1;
+        return (int) animals.stream().filter(a -> a.getName().startsWith(prefix.toLowerCase())).count();
     }
 
     /**
@@ -52,7 +55,7 @@ public class FarmYardChallenge {
      * @return
      */
     public Animal getYoungestAnimal() {
-        return null;
+        return animals.stream().sorted((a,b) -> a.getAge() - b.getAge()).findFirst().orElse(null);
     }
 
     /**
@@ -60,7 +63,7 @@ public class FarmYardChallenge {
      * @return
      */
     public Animal getOldestAnimal() {
-        return null;
+        return this.animals.stream().min((a, b) -> b.getAge() - a.getAge()).orElse(null);
     }
 
     /**
@@ -69,7 +72,10 @@ public class FarmYardChallenge {
      * @return
      */
     public List<Animal> getOldestAnimals() {
-        return null;
+     int eldestAge = this.getOldestAnimal().getAge();
+        return this.animals.stream()
+                .filter( animal -> animal.getAge() == eldestAge )
+                .toList();
     }
 
     /**
