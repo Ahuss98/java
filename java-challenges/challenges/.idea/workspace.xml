@@ -4,15 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898662bf-cfb2-4f01-8faf-75ad1dcaa814" name="Changes" comment="" />
+    <list default="true" id="898662bf-cfb2-4f01-8faf-75ad1dcaa814" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mysql/src/main/java/com/example/spring_mysql/Controllers/PetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mysql/src/main/java/com/example/spring_mysql/Controllers/PingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mysql/src/main/java/com/example/spring_mysql/Models/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mysql/src/main/java/com/example/spring_mysql/Models/PetData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mysql/src/main/java/com/example/spring_mysql/Repository/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mysql/src/main/java/com/example/spring_mysql/Service/PetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/nology/j4_arrays_and_loops/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/nology/j4_arrays_and_loops/Challenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/nology/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/nology/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/nology/j1_types_and_control_flow/Challenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/nology/j1_types_and_control_flow/Challenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/nology/j2_methods/Challenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/nology/j2_methods/Challenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/nology/j4_arrays_and_loops/Challenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/nology/j4_arrays_and_loops/Challenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/nology/j5_arrays_extended/Challenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/nology/j5_arrays_extended/Challenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/nology/j6_unit_testing/Challenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/nology/j6_unit_testing/Challenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/nology/j7_collections/Challenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/nology/j7_collections/Challenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/nology/j8_hash_maps_and_streams/Challenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/nology/j8_hash_maps_and_streams/Challenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/j1_types_and_control_flow/ChallengeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/j1_types_and_control_flow/ChallengeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/j2_methods/ChallengeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/j2_methods/ChallengeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/j3_classes/ChallengeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/j3_classes/ChallengeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/j4_arrays_and_loops/ChallengeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/j4_arrays_and_loops/ChallengeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/j5_arrays_extended/ChallengeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/j5_arrays_extended/ChallengeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/j6_unit_testing/ChallengeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/j6_unit_testing/ChallengeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/j7_collections/ChallengeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/j7_collections/ChallengeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/j8_hash_maps_and_streams/ChallengeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/j8_hash_maps_and_streams/ChallengeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../zoology2-code-along 2" beforeDir="false" afterPath="$PROJECT_DIR$/../../zoology2-code-along 2" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2scPoxm75M0ihWouG7owiTMnWES" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,12 +51,123 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ChallengeTest.areAnagrams_Anagrams_ShouldReturnTrue.executor": "Run",
+    "JUnit.ChallengeTest.areAnagrams_EmptyStrings_ShouldReturnTrue.executor": "Run",
+    "JUnit.ChallengeTest.areAnagrams_IdenticalStrings_ShouldReturnTrue.executor": "Run",
+    "JUnit.ChallengeTest.areAnagrams_NonAnagrams_ShouldReturnFalse.executor": "Run",
+    "JUnit.ChallengeTest.areAnagrams_OneEmptyString_ShouldReturnFalse.executor": "Run",
+    "JUnit.ChallengeTest.findMiddleItems_EmptyArray_ShouldReturnEmptyArray.executor": "Run",
+    "JUnit.ChallengeTest.findMiddleItems_EvenLengthArray_ShouldReturnTwoMiddleItems.executor": "Run",
+    "JUnit.ChallengeTest.findMiddleItems_OddLengthArray_ShouldReturnMiddleItem.executor": "Run",
+    "JUnit.ChallengeTest.findMiddleItems_SingleElementArray_ShouldReturnSameElement.executor": "Run",
+    "JUnit.ChallengeTest.findMiddleItems_TwoElementArray_ShouldReturnBothElements.executor": "Run",
+    "JUnit.ChallengeTest.mergeSortedArrays_BothEmptyArrays_ShouldReturnEmptyArray.executor": "Run",
+    "JUnit.ChallengeTest.mergeSortedArrays_DistinctElements_ShouldReturnMergedArray.executor": "Run",
+    "JUnit.ChallengeTest.mergeSortedArrays_NegativeAndPositiveNumbers_ShouldReturnMergedArray.executor": "Run",
+    "JUnit.ChallengeTest.mergeSortedArrays_OneEmptyArray_ShouldReturnNonEmptyArray.executor": "Run",
+    "JUnit.ChallengeTest.mergeSortedArrays_OverlappingElements_ShouldReturnMergedArray.executor": "Run",
+    "JUnit.ChallengeTest.printCharactersBetween_StartAfterEnd_ShouldPrintInReverseOrder.executor": "Run",
+    "JUnit.ChallengeTest.printCharactersBetween_StartBeforeEnd_ShouldPrintInOrder.executor": "Run",
+    "JUnit.ChallengeTest.printCharactersBetween_StartEqualsEnd_ShouldPrintSingleCharacter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/ahmedhussain/Nology/Java/java-challenges/challenges"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.ChallengeTest.mergeSortedArrays_NegativeAndPositiveNumbers_ShouldReturnMergedArray">
+    <configuration name="ChallengeTest.mergeSortedArrays_BothEmptyArrays_ShouldReturnEmptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="j4_arrays_and_loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="j4_arrays_and_loops" />
+      <option name="MAIN_CLASS_NAME" value="j4_arrays_and_loops.ChallengeTest" />
+      <option name="METHOD_NAME" value="mergeSortedArrays_BothEmptyArrays_ShouldReturnEmptyArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengeTest.mergeSortedArrays_DistinctElements_ShouldReturnMergedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="j4_arrays_and_loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="j4_arrays_and_loops" />
+      <option name="MAIN_CLASS_NAME" value="j4_arrays_and_loops.ChallengeTest" />
+      <option name="METHOD_NAME" value="mergeSortedArrays_DistinctElements_ShouldReturnMergedArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengeTest.mergeSortedArrays_NegativeAndPositiveNumbers_ShouldReturnMergedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="j4_arrays_and_loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="j4_arrays_and_loops" />
+      <option name="MAIN_CLASS_NAME" value="j4_arrays_and_loops.ChallengeTest" />
+      <option name="METHOD_NAME" value="mergeSortedArrays_NegativeAndPositiveNumbers_ShouldReturnMergedArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengeTest.mergeSortedArrays_OneEmptyArray_ShouldReturnNonEmptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="j4_arrays_and_loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="j4_arrays_and_loops" />
+      <option name="MAIN_CLASS_NAME" value="j4_arrays_and_loops.ChallengeTest" />
+      <option name="METHOD_NAME" value="mergeSortedArrays_OneEmptyArray_ShouldReturnNonEmptyArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengeTest.mergeSortedArrays_OverlappingElements_ShouldReturnMergedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="j4_arrays_and_loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="j4_arrays_and_loops" />
+      <option name="MAIN_CLASS_NAME" value="j4_arrays_and_loops.ChallengeTest" />
+      <option name="METHOD_NAME" value="mergeSortedArrays_OverlappingElements_ShouldReturnMergedArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ChallengeTest.mergeSortedArrays_NegativeAndPositiveNumbers_ShouldReturnMergedArray" />
+        <item itemvalue="JUnit.ChallengeTest.mergeSortedArrays_BothEmptyArrays_ShouldReturnEmptyArray" />
+        <item itemvalue="JUnit.ChallengeTest.mergeSortedArrays_OneEmptyArray_ShouldReturnNonEmptyArray" />
+        <item itemvalue="JUnit.ChallengeTest.mergeSortedArrays_OverlappingElements_ShouldReturnMergedArray" />
+        <item itemvalue="JUnit.ChallengeTest.mergeSortedArrays_DistinctElements_ShouldReturnMergedArray" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

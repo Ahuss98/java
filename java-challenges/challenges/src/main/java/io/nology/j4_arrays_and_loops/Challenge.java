@@ -1,5 +1,9 @@
 package io.nology.j4_arrays_and_loops;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Challenge {
 
     public Challenge() {
@@ -17,7 +21,22 @@ public class Challenge {
      * @return true if the strings are anagrams, false otherwise
      */
     public boolean areAnagrams(String str1, String str2) {
-        return false;
+        if (str1.length() != str2.length()) {
+            return false;
+        }
+
+        List<Character> charList2 = new ArrayList<>();
+        for (char c : str2.toCharArray()) {
+            charList2.add(c);
+        }
+
+        for (char c : str1.toCharArray()) {
+            if (!charList2.remove((Character) c)) {
+                return false;
+            }
+        }
+
+        return charList2.isEmpty();
     }
 
     /**
@@ -30,7 +49,15 @@ public class Challenge {
      * 
      */
     public void printCharactersBetween(char start, char end) {
-        return;
+        if (start <= end) {
+            for (char ch = start; ch <= end; ch++) {
+                System.out.print(ch);
+            }
+        } else {
+            for (char ch = start; ch >= end; ch--) {
+                System.out.print(ch);
+            }
+        }
     }
 
     /***
@@ -46,7 +73,20 @@ public class Challenge {
      * @return an array containing the middle item(s)
      */
     public String[] findMiddleItems(String[] array) {
-        return new String[] {};
+        String[] finalArr;
+        if(array.length == 0){
+            return array;
+        }
+
+        if(array.length % 2 == 0 ){
+            int middle = (array.length) / 2;
+            finalArr = new String[]{array[middle - 1 ], array[middle]};
+            return finalArr;
+        } else {
+            int middle = (array.length) / 2;
+            finalArr = new String[]{array[middle]};
+            return finalArr;
+        }
     }
 
     /***
@@ -58,7 +98,17 @@ public class Challenge {
      *         arrays
      */
     public int[] mergeSortedArrays(int[] array1, int[] array2) {
-        return new int[] {};
+        int arrayLength = array1.length + array2.length;
+        int[] result = new int[arrayLength];
+
+        for ( int i = 0; i < arrayLength ; i++){
+            if(i < array1.length){
+            result[i] = array1[i];
+            } else {
+                result[i] = array2[i - array1.length];
+            }
+        }
+            return Arrays.stream(result).sorted().toArray();
     }
 
     /***
